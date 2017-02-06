@@ -11,6 +11,18 @@ Summary: The Python 3.4 standard `ssl` module API implemented on top of pyOpenSS
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/backports.ssl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/backports.ssl-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/backports.ssl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/backports.ssl-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/backports.ssl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/backports-ssl-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/backports.ssl/badges/version.svg)](https://anaconda.org/conda-forge/backports.ssl)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/backports.ssl/badges/downloads.svg)](https://anaconda.org/conda-forge/backports.ssl)
+
 Installing backports.ssl
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `backports.ssl` available on your 
 ```
 conda search backports.ssl --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/backports.ssl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/backports.ssl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/backports.ssl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/backports.ssl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/backports.ssl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/backports-ssl-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/backports.ssl/badges/version.svg)](https://anaconda.org/conda-forge/backports.ssl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/backports.ssl/badges/downloads.svg)](https://anaconda.org/conda-forge/backports.ssl)
 
 
 Updating backports.ssl-feedstock
