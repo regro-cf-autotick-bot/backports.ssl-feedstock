@@ -20,9 +20,11 @@ requirements:
   build:
     - python
     - setuptools
+    - backports
 
   run:
     - python
+    - backports
     - pyopenssl >=0.14
     - pyasn1 >=0.1.7
 
