@@ -13,16 +13,18 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
     - python
     - setuptools
+    - backports
 
   run:
     - python
+    - backports
     - pyopenssl >=0.14
     - pyasn1 >=0.1.7
 
